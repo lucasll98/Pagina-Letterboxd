@@ -1,0 +1,632 @@
+*{
+    font-size: 16px;
+    margin: 0;
+    font-family: sans-serif;    
+}
+
+.contenedorNav{
+    position: fixed;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    background: rgb(20, 24, 28);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.subContenedorNav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContenedorNav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemNav{
+    margin: 10px;
+    color: rgb(153, 170, 187);
+}
+
+a,.la-bolt,.la-search,.la-angle-down{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: all 0.4s;
+}
+
+a:hover,.la-bolt:hover,.la-search:hover,.la-angle-down:hover{
+    color: white;
+}
+
+.la-bolt,.la-search{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.iconoLetterboxd{
+    height: 64px;
+    width: 368px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.contItemUsuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconoUsuario{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: solid 0.5px rgb(153, 170, 187);
+    background-position: center center;
+    background-size: cover;
+}
+
+.itemNav2{
+    margin: 3px;
+    color: rgb(153, 170, 187);
+}
+
+.contSubItem2{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: rgb(0, 176, 32);
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contSubItem2:hover{
+    background: rgb(14, 152, 14);
+}
+
+.log{
+    color: white;
+    font-weight: bold;
+}
+
+.contSubItem3{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: rgb(21, 187, 50);
+    border-radius: 4px;
+}
+
+.contSubItem3:hover{
+    background: rgb(16, 160, 16);
+}
+
+.barritaAbajo{
+    color: white;
+    font-size: 16px;
+}
+
+.contenedorSubsLog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.contenedorHeader{
+    margin-top:90px ;
+    background: rgb(30, 37, 43);
+    height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 34px;
+    color: rgb(163, 179, 195);
+    font-weight: lighter;
+}
+
+
+.contenedorFooter{
+    height: 160px;
+    width: 100%;
+    background: rgb(44, 52, 64);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.la-twitter,.la-instagram,.la-youtube,.la-facebook-square{
+    font-size: 28px;
+    color: rgb(85, 102, 119);
+    cursor: pointer;
+    margin: 3px;
+}
+
+.la-twitter:hover,.la-instagram:hover,.la-youtube:hover,.la-facebook-square:hover{
+    color:rgb(134, 137, 144) ;
+}
+
+.la-twitter{
+    margin-left: 14px;
+}
+
+.parrafoFooter{
+    color: rgb(85, 102, 119);
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 28px;
+    margin-right: 496px;
+}
+
+.contenedorPeliculas{
+    width: 100%;
+    height: 500px;
+    background: rgb(20, 24, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContenedorPeliculas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 80px;
+}
+
+.peliculas1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+}
+
+.subtPelis{
+    color: rgb(155, 160, 184);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.subtPelis:hover{
+    color: rgb(48, 151, 236);
+}
+
+.peliculas2{
+    background: rgb(68, 85, 102) ;
+    height: 1px;
+    width: 99%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.peliculas3{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contPelis{
+    height: 114%;
+    width: 20%;
+    margin:7px;
+    margin-top:66px;
+}
+
+.pelis{
+    cursor: pointer;
+    border-radius: 5px;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    border: solid 0.1px rgb(50, 56, 75) ;
+}
+
+.pelis:hover{
+    
+    box-sizing: content-box;
+    border: 1.9px solid white;
+}
+
+.p1{
+    background-image: url("https://static.posters.cz/image/1300/posters/rocky-1-i15922.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p2{
+    background-image: url("https://i.pinimg.com/originals/92/a6/87/92a687223d019954e34581d4fbd75f70.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p3{
+    background-image: url("https://image.tmdb.org/t/p/original/oGhLxx89geQJuWeUih6f0OcX6TD.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p4{
+    background-image: url("https://www.anochecine.com.ar/v1/wp-content/uploads/2020/11/A14077EF-2A4A-4832-BBB2-6E4AC12518A3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p5{
+    background-image: url("https://picfiles.alphacoders.com/111/thumb-111786.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p6{
+    background-image: url("https://w0.peakpx.com/wallpaper/114/586/HD-wallpaper-the-shining-kubrick-stanley.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contRating{
+    height: 34px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estrellas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.la-star{
+    color: rgb(155, 160, 184);
+}
+
+
+.p7{
+    background-image: url("https://image.tmdb.org/t/p/original/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p8{
+    background-image: url("https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2016/03/halloween-poster-artwork-donald-pleasence-jamie-lee-curtis-pj-soles.jpg?fit=3375%2C5175&ssl=1");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p9{
+    background-image: url("https://i.pinimg.com/originals/d5/4f/50/d54f501d2ebf86220ae58ea58c199fec.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p10{
+    background-image: url("https://i.pinimg.com/736x/4d/e5/8d/4de58d1c5d92228e7d941fc482eaaee3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p11{
+    background-image: url("https://m.media-amazon.com/images/I/51uGbhnOMOL.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p12{
+    background-image: url("https://picfiles.alphacoders.com/350/thumb-350425.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.nombreUsuario{
+    width: 100%;
+    height: 40px;
+    background: rgb(75, 82, 99);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: end;
+    align-self: baseline;
+    margin-top: 152.6%;
+    
+}
+
+.usuario{
+    color:rgb(155, 160, 185);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.iconito{
+    height: 24px;
+    width: 24px;
+    margin-left: 6px;
+}
+
+
+.contenedorNoticia{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(20, 24, 28);
+}
+
+.subContNoticia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 74%;
+    width: 99%;
+    border-radius: 5px;
+    background: rgb(32, 40, 48) ;
+}
+
+.not1{
+    height: 100%;
+    width: 1400px;
+    background-image: url("https://image.cnbcfm.com/api/v1/image/106322667-1578327705418gettyimages-1197761348.jpg?v=1578327946");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.not2{
+    background: rgb(32, 40, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 30px;
+}
+
+.subtNot{
+    font-size: 26px;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+.parrafoNot{
+    padding: 10px;
+    font-family: serif;
+    font-size: 20px;
+    color: rgb(152, 168, 185);
+}
+
+.c2{
+    height: 600px;
+}
+.contenedorMuchasNoticias{
+    
+    width: 101%;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(20, 24, 28);
+    margin-top: 10px;
+}
+
+.noticias{
+    height: 100%;
+    width: 35%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.imagenNoticia{
+    width: 100%;
+    height: 240px;
+    border-radius: 5px;
+    border:solid 0.1px rgb(50, 56, 75);
+    cursor: pointer;
+}
+
+.imagenNoticia:hover{
+    box-sizing: content-box;
+    border: 1.9px solid white;
+}
+
+.iN1{
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/5HPNLXVHGFCP7BCXSKXWJWU3MQ.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iN2{
+    background-image: url("https://www.infobae.com/new-resizer/h8RGE4JOuFsJTW9qR9bAukg0OSQ=/1024x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/BOPVJGPUKNA2THVVTYVY7ULZR4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iN3{
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/aWnukdcMK8EmOy84S1_Gfjg4bXg=/433x0:3172x1438/fit-in/3429x1440/top/filters:format_auto():quality(85):upscale()/2023/07/10/683/n/1922283/3b5cc9e364ac22a668f3e6.22137564_.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subtNot:hover{
+    color: rgb(48, 151, 236);
+    cursor: pointer;
+}
+
+
+
+.contenedorNotas{
+    height: 1800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(20, 24, 28) ;
+}
+
+
+.subContenedorNotas{
+    height: 1700px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.subContenedorNotas2{
+    height: 97%;
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.notas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    background: rgb(32, 40, 48);
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.usuarioNota{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenNota{
+    width: 100%;
+    height: 240px;
+    border-radius: 5px;
+    background: red;
+    margin-bottom: 10px;
+
+}
+
+
+.imagen1{
+    background-image: url("https://img.asmedia.epimg.net/resizer/VgIOa0E8tDsd7svKfCBuptlCznw=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/NBQ5ETBI5VLFZO3J4C6LBEERDY.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen2{
+    background-image: url("https://i.ytimg.com/vi/4L2qO8k3fgw/maxresdefault.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen3{
+    background-image: url("https://televisa.brightspotcdn.com/dims4/default/626f747/2147483647/strip/true/crop/896x504+57+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Ftelevisa-brightspot.s3.amazonaws.com%2Fapi%2Fhttps%3A%2F%2Fi2.esmas.com%2F2017%2F01%2F11%2F908652%2Fantes-y-despues-y-donde-estan-las-rubias.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen4{
+    background-image: url("https://gcdn.emol.cl/los-90/files/2018/10/GOODfellas.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen5{
+    background-image: url("https://imagenes.elpais.com/resizer/Ma7aPz_YczxLThFSoHkrAUQD_AQ=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/T2UZEFUFDI5WMX34IX6G3F4ZNY.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen6{
+    background-image: url("https://img.ecartelera.com/noticias/fotos/61500/61533/1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen7{
+    background-image: url("https://media.newyorker.com/photos/594044d90c240c2a1fd678ce/16:9/w_2559,h_1439,c_limit/970324_ra409.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen8{
+    background-image: url("https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/11/28/15118667709848.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen9{
+    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/2JA7URADWJDW7LWZQNZJNHG3PA.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
